@@ -1,0 +1,25 @@
+.footer{
+   background-color: skyblue;
+}
+.header{
+   background-color:burlywood;
+   display: flex;
+   justify-content: space-between;
+}
+.header{
+   position: relative;
+}
+.header p{
+   position: absolute;
+   top:50%;
+   right: 50%;
+   transform: translate(-50%,-50%);
+   opacity: 0;
+}
+.header:hover p{
+opacity: 1;
+
+}
+.header:hover img{
+opacity: 3;
+}
